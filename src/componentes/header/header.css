@@ -1,0 +1,23 @@
+.cabecalho {
+    text-align: center;
+    background-color: rgb(76, 76, 76);
+    color: #fff;
+    position: relative;
+}
+
+.cabecalho .cabecalho__descricao {
+    background-color: #ffffff79;
+    padding: 1rem;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px 5px  rgba(0, 0, 0, 0.6);
+}
+
+.cabecalho .cabecalho__descricao img {
+    width: 60px;
+    align-self: flex-end;
+}
