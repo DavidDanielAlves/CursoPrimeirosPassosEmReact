@@ -20,10 +20,6 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <div className='logo'>
-                    <img src='/imagens/footer/logo.png' alt='Logo do site Organo' />
-                </div>
-
                 <div className='mensagem'>
                     <p>Deseenvolvido por David Daniel Alves</p>
                 </div>

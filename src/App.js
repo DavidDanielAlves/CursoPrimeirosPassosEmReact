@@ -3,6 +3,7 @@ import Banner from './componentes/banner'
 import Formulario from './componentes/formulario';
 import Time from './componentes/time';
 import Footer from './componentes/footer';
+import Header from './componentes/header';
 
 function App() {
 
@@ -14,43 +15,43 @@ function App() {
 
   const times = [
     {
-      nome: 'Programação',
+      nome: 'Ação',
       corPrimaria: '#57C278',
       corSecundaria: '#D9F7E9',
     },
 
     {
-      nome: 'Front-End',
+      nome: 'Suspense',
       corPrimaria: '#82CFFA',
       corSecundaria: '#E8F8FF',
     },
 
     {
-      nome: 'Data Science',
+      nome: 'online',
       corPrimaria: '#A6D157',
       corSecundaria: '#F0F8E2',
     },
 
     {
-      nome: 'Devops',
+      nome: 'offline',
       corPrimaria: '#E06B69',
       corSecundaria: 'F0F8E2',
     },
 
     {
-      nome: 'UX e Design',
+      nome: 'Terror',
       corPrimaria: '#D86EBF',
       corSecundaria: '#FAE5F5',
     },
 
     {
-      nome: 'Mobile',
+      nome: 'Para familia',
       corPrimaria: '#D86EFB',
       corSecundaria: '#FEBA05',
     },
 
     {
-      nome: 'Inovação e Gestão',
+      nome: 'FPS',
       corPrimaria: '#FF8A29',
       corSecundaria: 'FFEEDF',
     }
@@ -58,7 +59,7 @@ function App() {
 
   return (
     <div className="App">
-      <Banner />
+      <Header/>
       <Formulario times={times.map(time => time.nome)} aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)}/>
       {times.map(time => 
       <Time 
